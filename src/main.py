@@ -1,6 +1,7 @@
 import time
+import os
 
-print("app: start")
+print("app: start,  PID = {}".format(os.getpid()))
 
 i = 0
 while True:
